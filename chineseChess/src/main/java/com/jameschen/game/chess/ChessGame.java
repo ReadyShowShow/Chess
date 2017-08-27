@@ -55,7 +55,6 @@ public class ChessGame extends Activity {
 
     @Override
     protected void onDestroy() {
-        // TODO Auto-generated method stub
         destroyApp(true);
         super.onDestroy();
     }
