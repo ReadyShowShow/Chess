@@ -7,7 +7,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.view.MotionEvent;
 import android.view.View;
-
 import com.jameschen.game.util.Util;
 
 class ChessView extends View {
@@ -126,7 +125,7 @@ class ChessView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         drawChess(canvas);
-        super.onDraw(canvas);
+//        super.onDraw(canvas);
     }
 
     protected void drawChess(Canvas canvas) {

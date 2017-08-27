@@ -1,35 +1,10 @@
-/*
-XQWLMIDlet.java - Source Code for XiangQi Wizard Light, Part III
-
-XiangQi Wizard Light - a Chinese Chess Program for Java ME
-Designed by Morning Yellow, Version: 1.42, Last Modified: May 2010
-Copyright (C) 2004-2010 www.xqbase.com
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
- */
 package com.jameschen.game.chess;
 
 import android.app.Activity;
-
 import com.jameschen.game.util.Util;
 
 public class ChessGame extends Activity {
     private static final String STORE_NAME = "XQWLight";
-
-    static final String[] SOUND_NAME = {"click", "illegal", "move", "move2",
-            "capture", "capture2", "check", "check2", "win", "draw", "loss",};
 
     static final int RS_DATA_LEN = 512;
 
